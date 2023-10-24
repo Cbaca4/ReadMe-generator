@@ -46,7 +46,7 @@ ${data.usage}
 Name - ${data.name}
 Github - [${data.creator}](https://github.com/${data.creator}/)
 ## Contributors
-${data.contributors}
+${data.contributors}cd
 ${renderLicenseSection(data.license)}
 `;
 }
