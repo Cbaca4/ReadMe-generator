@@ -7,33 +7,43 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "please name your project",
+        message: "What is the name of your project?",
     },
     {
         type: "input",
         name: "description",
-        message: "please describe the purpose and functionality of this project.",
+        message: "What was your motivation?.",
+    },
+    {
+        type: "input",
+        name: "description",
+        message: "describe the purpose of this project. What problem does it solve?",
     },
     {
         type: "checkbox",
         name: "license",
-        message: "please select a license applicable to this project.",
+        message: "what license will you be using with this project (if any).",
         choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
     },
     {
         type: "input",
         name: "require",
-        message: "List any project dependencies here.",
+        message: "List any dependencies used in this project.",
     },
     {
         type: "input",
         name: "usage",
-        message: "State the languages or technologies associated with this project.",
+        message: "what languages were used in this project?",
+    },
+    {
+        type: "input",
+        name: "description",
+        message: "What did you learn?",
     },
     {
         type: "input",
         name: "creator",
-        message: "write your Github username.",
+        message: "Github username.",
     },
     {
         type: "input",
@@ -63,3 +73,4 @@ function init() {
 
 // Function call to initialize app
 init();
+
