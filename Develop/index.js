@@ -16,11 +16,6 @@ const questions = [
         message: "What was your motivation?",
     },
     {
-        type: "input",
-        name: "description",
-        message: "describe the purpose of this project. What problem does it solve?",
-    },
-    {
         type: "checkbox",
         name: "license",
         message: "what license will you be using with this project (if any).",

@@ -36,24 +36,17 @@ function generateMarkdown(data) {
   [Usage](#usage)
   [Contact-Me](#contact-me)
   [Contributors](#contributors)
-  [Testing](#testing)
 ${renderLicenseLink(data.license)}
-## Description
-${data.descriptions}\
+
 ## Requirments
 ${data.require}
 ## usage
 ${data.usage}
 ## COntact-Me
 Name - ${data.name}
-Email - ${data.descriptions}
 Github - [${data.creator}](https://github.com/${data.creator}/)
 ## Contributors
 ${data.contributors}
-## Testing
-\`\`\`
-${data.test}
-\`\`\`
 ${renderLicenseSection(data.license)}
 `;
 }
