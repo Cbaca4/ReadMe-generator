@@ -28,3 +28,4 @@ THEN I am taken to the corresponding section of the README
 ## Live Links
 
 [github repo](https://github.com/Cbaca4/ReadMe-generator)
+[video link](https://watch.screencastify.com/v/X9eBsqwzmGi9Y7ARVhhj)
